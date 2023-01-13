@@ -30,7 +30,7 @@ const items = [
   {
     href: '/products',
     icon: (<ShoppingBagIcon fontSize="small" />),
-    title: 'Products'
+    title: 'Drivers'
   },
   {
     href: '/account',

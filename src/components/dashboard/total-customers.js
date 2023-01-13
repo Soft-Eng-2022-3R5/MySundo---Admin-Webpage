@@ -22,7 +22,7 @@ export const TotalCustomers = (props) => (
             color="textPrimary"
             variant="h4"
           >
-            1,6k
+            1.6k
           </Typography>
         </Grid>
         <Grid item>

@@ -18,13 +18,13 @@ export const TasksProgress = (props) => (
             gutterBottom
             variant="overline"
           >
-            TASKS PROGRESS
+            Unpaid Bookings
           </Typography>
           <Typography
             color="textPrimary"
             variant="h4"
           >
-            75.5%
+            1,587
           </Typography>
         </Grid>
         <Grid item>
