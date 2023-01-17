@@ -9,6 +9,8 @@
   --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
   --activeItem: #f799a354;
+  --green: #ec0b0b;
+  
 }
 
 .App {
@@ -16,9 +18,9 @@
   color: var(--black);
   background: linear-gradient(
     106.37deg,
-    #ffe1bc 29.63%,
-    #ffcfd1 51.55%,
-    #f3c6f1 90.85%
+    #6bf759 29.63%,
+    #d3faae 51.55%,
+    #75f12d 90.85%
   );
   height: 100vh;
   display: flex;
@@ -26,6 +28,15 @@
   justify-content: center;
   font-family: 'Inter', sans-serif;
 }
-
-
+.AppGlass {
+  display: grid;
+  height: 97%;
+  width: 97%;
+  background: var(--glass);
+  border-radius: 2rem;
+  gap: 16px;
+  grid-template-columns: 11rem auto 20rem;
+  overflow: hidden;
+  gap: 10px;
+}
 
