@@ -57,7 +57,7 @@ function ExpandedCard({param,setExpanded}){
       options: {
         chart:{
           type: "area",
-          height: "auto"
+          height: "auto" 
         },
         dropShadow: {
           enabled: false,

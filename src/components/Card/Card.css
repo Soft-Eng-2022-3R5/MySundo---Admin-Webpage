@@ -11,7 +11,7 @@
     box-shadow: none!important;
 }
 
-/*radiarbar*/
+/*radialbar*/
 .radialBar{
     flex:1;
     display: flex;
@@ -20,7 +20,7 @@
     gap: 1rem;
 }
 .CircularProgressbar{
-    width: 4rem !important;
+    width: 3rem !important;
     overflow: visible;
 }
 

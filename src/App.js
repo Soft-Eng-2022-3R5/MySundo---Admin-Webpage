@@ -1,16 +1,19 @@
 import './App.css'
-import MainDash from './components/MainDash/MainDash';
-import Sidebar from './components/Sidebar/Sidebar';
+import Login from './components/Auth/Login';
+import { Route, Routes} from 'react-router-dom';
+import Home from './components/Pages/Home';
 
 function App() {
   return (
+    
     <div className="App">
-      <div className="AppGlass">
-        <Sidebar/>
-        <MainDash/>
-        <div></div>
+        <Routes>
+          <Route path = "/" element ={<Login/>}/>
+          <Route path = "/login" element ={<Login/>}/>
+          <Route path = "Home" element = {<Home/>}/>
+        </Routes>
       </div>
-    </div>
+
   );
 }
 

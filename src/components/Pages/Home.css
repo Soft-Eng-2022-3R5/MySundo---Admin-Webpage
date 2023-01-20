@@ -1,0 +1,27 @@
+.Home{
+    /* padding: 0.5rem 3.5rem; */
+    color: var(--black);
+    background: linear-gradient(
+      106.37deg,
+      #6bf759 29.63%,
+      #d3faae 51.55%,
+      #75f12d 90.85%
+    );
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+  }
+.AppGlass {
+    display: grid;
+    width: 80rem;
+    height: 96%;
+    background: var(--glass);
+    border-radius: 2rem;
+    gap: 16px;
+    grid-template-columns: 11rem auto 20rem;
+    overflow: hidden;
+    gap: 20px;
+  }
+    

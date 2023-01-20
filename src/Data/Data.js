@@ -14,10 +14,12 @@ export const SidebarData = [
     {
       icon: UilEstate,
       heading:"Dashboard",
+      path: "/Maindash"
     },
     {
       icon: UilClipboardAlt,
       heading:"Bookings",
+      path: "/Bookings"
     },
     {
       icon: UilUsersAlt,
@@ -68,7 +70,7 @@ export const CardsData =[
     ],
   },
   {
-    title: "Unpaid Bookings",
+    title: "Unpaid ",
     color: {
       backGround:
         "linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%)",
@@ -79,7 +81,7 @@ export const CardsData =[
     png: UilUsdSquare,
     series: [
       {
-        name: "Unpaid Bookings",
+        name: "Unpaid  Bookings",
         data: [10, 25, 15, 30, 12, 15, 20],
       },
     ],
