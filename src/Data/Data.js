@@ -14,24 +14,34 @@ export const SidebarData = [
     {
       icon: UilEstate,
       heading:"Dashboard",
-      path: "/Maindash"
+      cName: 'nav-text',
+      path: '/MainDash'
+   
     },
     {
       icon: UilClipboardAlt,
       heading:"Bookings",
-      path: "/Bookings"
+      cName: 'nav-text',
+      path: '/Booking'
     },
     {
       icon: UilUsersAlt,
       heading:"Customers",
+      cName: 'nav-text',
+      path: "/Customer"
     },
     {
       icon: UilPackage,
-      heading:'Drivers'
+      heading:'Drivers',
+      cName: 'nav-text',
+      path: 'Driver'
     },
     {
       icon: UilChart,
-      heading:'Analytics'
+      heading:'Analytics',
+      cName: 'nav-text',
+      path: 'Reports'
+      
     },
   ];
 

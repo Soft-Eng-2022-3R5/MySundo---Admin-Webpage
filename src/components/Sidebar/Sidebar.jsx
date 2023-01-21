@@ -5,15 +5,16 @@ import { SidebarData } from '../../Data/Data';
 import {UilSignOutAlt} from '@iconscout/react-unicons';
 import { useState } from 'react';
 import { useNavigate } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-
-const Sidebar = () => {
+function Sidebar(){
     const [selected, setSelected] = useState(0);
     const navigate = useNavigate();
 
     function handleClick(){
     navigate("/Login")
     }
+    
   return (
     <div className="Sidebar">
         {/*Logo*/}
@@ -25,21 +26,15 @@ const Sidebar = () => {
         </div>
         {/*menue*/}
         <div className="menu">
-            {SidebarData.map((item, index)=>{
-                return(
-                    
-                    <div className={selected===index?'menuItem active': 'menuItem'}
-                    key ={index}
-                    onClick={()=>setSelected(index)}
-                    >
-                        <item.icon/>
-                        <span>
-                            {item.heading}
-                        </span>
-                    
-                    </div> 
-                
-                )
+        {SidebarData.map((item, index) => {
+              return (
+                <li key={index} className={item.cName}>
+                  <Link to={item.path}>
+                    <item.icon/>
+                    <span >{item.heading}</span>
+                  </Link>
+                </li>
+              );
             })}
             <div className="menuItem" onClick={(e) => handleClick()}>
                 <UilSignOutAlt/>

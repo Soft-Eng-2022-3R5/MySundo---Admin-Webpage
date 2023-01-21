@@ -1,8 +1,11 @@
+import Table from '../Table/Table'
 import React from 'react'
 
-const Booking = () => {
+function Booking () {
   return (
-    <div>Booking</div>
+    <div className="Booking">
+      <Table/>
+    </div>
   )
 }
 

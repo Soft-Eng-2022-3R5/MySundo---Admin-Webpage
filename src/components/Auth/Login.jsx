@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import { gapi } from "gapi-script";
 import "./Login.css"
 import { useNavigate } from "react-router-dom";
-
+import Logo from '../../imgs/logo.png'
 const LoginForm = () => {
 
     const navigate = useNavigate();
@@ -41,7 +41,7 @@ function handleClick(){
 
     return (
         <div className="cover">
-            <h1>Login</h1>
+            <img src = {Logo} alt=''/>
             <input type="text" placeholder="username" />
             <input type="password" placeholder="password" />
 

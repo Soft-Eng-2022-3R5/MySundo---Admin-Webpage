@@ -60,7 +60,7 @@ export default function BasicTable() {
                 <TableCell align="left">Date</TableCell>
                 <TableCell align="left">Status</TableCell>
                 <TableCell align="left"></TableCell>
-              </TableRow>
+              </TableRow> 
             </TableHead>
             <TableBody style={{ color: "white" }}>
               {rows.map((row) => (

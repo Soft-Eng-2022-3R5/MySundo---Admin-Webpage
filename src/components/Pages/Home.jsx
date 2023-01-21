@@ -2,22 +2,18 @@ import React from 'react'
 import MainDash from '../MainDash/MainDash'
 import Sidebar from '../Sidebar/Sidebar'
 import './Home.css'
+import { Route, Routes} from 'react-router-dom';
+import Booking from '../Pages/Booking'
 
-const Home = () => {
+function Home () {
   return (
     
-    <div className="Home">
-        <div className="AppGlass">
-            <Sidebar/>
-            <MainDash/>
-         
-        </div>
-    </div>
-
-
+  <div className="Home">
+    HOME
+  </div>
 
 
     )
 }
 
-export default Home
+export default Home;
